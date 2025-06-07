@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#73C2FB</color> <!-- Light Blue -->
+    <color name="colorPrimary">#0077c0</color> <!-- Slightly Darker Blue -->
+    <color name="colorSecondary">#FFF9E3</color> <!-- Soft Yellow -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorSurface">#F9F9F9</color> <!-- Light Gray -->
+    <color name="textPrimary">#2C3E50</color> <!-- Dark Gray -->
+    <color name="textSecondary">#6C757D</color> <!-- Lighter Gray -->
+    <color name="magicBlue">#002D62</color>
+    <color name="blueShade">#0066b2</color>
+    <color name="aero">#7CB9E8</color>
+    <color name="astrosNavy">#002D62</color>
+    <color name="blueEFrance">#318CE7</color>
+    <color name="lightBlue">#C3E0FA</color>
+    <color name="purple">#8692F7</color>
+</resources>

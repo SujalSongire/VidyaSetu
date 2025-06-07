@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupDetailsActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView android:id="@+id/groupNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group Name"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/membersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button android:id="@+id/addMembersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Members"/>
+
+    <Button android:id="@+id/exitGroupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit Group"
+        android:textColor="@android:color/holo_red_dark"/>
+</LinearLayout>
